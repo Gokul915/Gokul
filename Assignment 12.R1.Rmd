@@ -1,0 +1,53 @@
+---
+title: "Assignment 12"
+author: "Gokul krishna"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Name,Age,Sex,Grade
+Raul,25,Male,80
+Booker,18,Male,83
+Lauri,21,Female,90
+Leonie,21,Female,91
+Sherlyn,22,Female,85
+Mikaela,20,Female,69
+Raphael,23,Male,91
+Aiko,24,Female,97
+Tiffaney,21,Female,78
+Corina,23,Female,81
+Petronila,23,Female,98
+Alecia,20,Female,87
+Shemika,23,Female,97
+Fallon,22,Female,90
+Deloris,21,Female,67
+Randee,23,Female,91
+Eboni,20,Female,84
+Delfina,19,Female,93
+Ernestina,19,Female,93
+Milo,19,Male,67
+ggplot(data,aes (x= name,y= grade, fill= sex))+ geom_bar (stat = "identity")+labs(title= "grade of students",x= name)
